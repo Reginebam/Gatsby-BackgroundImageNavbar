@@ -1,0 +1,16 @@
+.masthead{
+
+  width: 100%;
+  min-height:100vh; 
+  display: flex;
+  justify-content: center;
+
+align-items: center;
+padding: 3rem;
+
+}
+.masthead h1{
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+}
