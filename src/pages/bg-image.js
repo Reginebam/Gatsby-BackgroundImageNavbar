@@ -3,6 +3,7 @@ import {graphql, useStaticQuery} from 'gatsby'
 import {getImage} from 'gatsby-plugin-image'
 import {masthead} from '../css/custom.css'
 
+
 import {BgImage} from 'gbimage-bridge'
 // import BackgroundImage from 'gatsby-background-image'
 
@@ -36,7 +37,7 @@ hello I used to Struglle to make it work then please work I know a robot you mus
   </BackgroundImage> */
 
   <BgImage image ={pluginImage} className="masthead">
-   <h1>merci de me voir</h1>
+   <h1>The World Like You Never Imagine </h1>
   </BgImage>
 
 )

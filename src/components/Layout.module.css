@@ -1,0 +1,19 @@
+.auto{
+  color: aliceblue;
+  text-decoration: azure;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 247, 247);
+  color: rgb(12, 9, 9);
+  text-align: center;
+}
+
+
+.image{
+  height: 50px;
+  width: 50px;
+}
