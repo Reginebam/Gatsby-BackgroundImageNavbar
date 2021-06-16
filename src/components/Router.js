@@ -1,6 +1,7 @@
 import React from 'react'
 import {auto} from './Layout.module.css'
 import logo from './imagess/logo.png'
+import {navcolor} from './Layout.module.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,7 +11,7 @@ export default function Router() {
   return (
     <div>
       
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+      <Navbar className={navcolor} collapseOnSelect expand="lg" variant="dark" fixed="top">
       <Navbar.Brand href="/"> <img className="d-block w-10" src={logo} alt="fireSpot" width="200px"/>
       </Navbar.Brand>
       

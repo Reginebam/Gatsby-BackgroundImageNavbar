@@ -14,3 +14,30 @@ padding: 3rem;
   color: aliceblue;
   text-shadow: 3px 3px 3px rgba(0,0,0,.5);
 }
+
+.play{
+  width: 100px;
+  justify-content: center;
+}
+.gift{
+  height: 200;
+  width: 400px;
+}
+.gifte{
+  height: 300;
+  width: 500px;
+}
+.marg{
+  margin-top: 300%;
+}
+.dimage{
+  width: 300px;
+  height: 300px;
+}
+.dimage2{
+  width: 400px;
+  height: 300px;
+}
+.cot{
+ width:500px;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import {graphql, useStaticQuery} from 'gatsby'
 import {getImage} from 'gatsby-plugin-image'
 import {masthead} from '../css/custom.css'
+import {Col, Row, Container } from 'react-bootstrap'
 
 
 import {BgImage} from 'gbimage-bridge'
@@ -37,7 +38,20 @@ hello I used to Struglle to make it work then please work I know a robot you mus
   </BackgroundImage> */
 
   <BgImage image ={pluginImage} className="masthead">
-   <h1>The World Like You Never Imagine </h1>
+<br/><br/>
+    <Container>
+
+      <Row>
+        <Col>
+          
+          <h1>The World Like You Never Imagine </h1>
+        </Col>
+          <br/>
+      </Row>
+
+
+    </Container>
+
   </BgImage>
 
 )

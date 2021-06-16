@@ -11,7 +11,12 @@ export default function Layout({children}) {
        
           <br/>
           <div>
+          <br/>
+      <br/>
+
                  {children}
+                 <br/>
+    
           </div>
              
         
